@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #d9e2e8
+}
+
+.container{
+    max-width: 600px;
+    margin: 100px auto;
+    padding: 0 20px;
+}
+
+/*Card*/
+.card{
+    margin: 20px 0;
+    background-color: white;
+    padding: 20px 20px 30px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.card h2{
+    font-size: 27px;
+    margin-bottom: 20px;
+}
+
+.card p{
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 30px;
+    color: darkgray;
+}
+
+.card a{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.card a:hover{
+    opacity: 0.9;
+}
+
+.card-sporty h2{
+    color: rgb(182, 74, 74);
+}
+
+.card-sporty a{
+    background-color: rgb(182, 74, 74);
+}
+
+.card-casual h2{
+    color: rgb(34, 22, 198);
+}
+
+.card-casual a{
+    background-color: rgb(34, 22, 198);
+}
+
+.card-formal h2{
+    color: rgb(129, 13, 13);
+}
+
+.card-formal a{
+    background-color: rgb(129, 13, 13);
+}
+
+.card-sporty{
+    background: white url('../images/sporty.png') no-repeat center right/200px;
+    background-size: 200px;
+}
+
+.card-casual{
+    background: white url('../images/casual.png') no-repeat center right/200px;
+    background-size: 200px;
+}
+
+.card-formal{
+    background: white url('../images/formal.png') no-repeat center right/200px;
+    background-size: 200px;
+}
