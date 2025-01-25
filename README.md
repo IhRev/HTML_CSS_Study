@@ -1,1 +1,1 @@
-HTML + CSS styding
+HTML + CSS studying
